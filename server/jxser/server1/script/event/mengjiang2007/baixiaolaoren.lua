@@ -4,7 +4,7 @@ Include("\\script\\task\\system\\task_string.lua");
 Include("\\script\\lib\\pay.lua");
 
 function main()
-	if(tonumber(GetLocalDate("%Y%m%d"))>=20070728 and tonumber(GetLocalDate("%Y%m%d"))<=20070813) then
+	if(tonumber(GetLocalDate("%Y%m%d"))>=20070728 and tonumber(GetLocalDate("%Y%m%d"))<=20270813) then
 		CreateTaskSay({"<dec><npc>Hoan nghªnh ®Õn víi ho¹t ®éng 'TriÖu Håi M·nh T­íng' diÔn ra tõ 28-07-2007 ®Õn 24:00 13-08-2007. Trong thêi gian ho¹t ®éng, ng­êi ch¬i cÊp 90 trë lªn (bao gåm cÊp 90) ®· n¹p thÎ cã thÓ tham gia chÕ t¹o lÖnh bµi. Xem néi dung chi tiÕt trªn trang chñ.",
 			"Ta muèn chÕ t¹o Méc Bµi/#lingpaizhizao_do(1)",
 			"Ta muèn chÕ t¹o §ång Bµi/#lingpaizhizao_do(2)",
